@@ -1,1 +1,11 @@
 
+import React from 'react';
+
+const Button = (props) => {
+    const {handleClick} = props;
+    return (
+        <button id="click" onClick={handleClick}>CLICK</button>
+    );
+};
+
+export default Button;
